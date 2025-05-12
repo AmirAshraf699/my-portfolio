@@ -18,7 +18,7 @@
             {{ t('about.text.six') }}
           </div>
           <div class="info mt-6">
-            <a class="d-inline-block px-3 py-2" href="./pdf/Amir Ashraf Amir.pdf" download="" target="_blank">{{ t('about.download') }}</a>
+            <a class="d-inline-block px-3 py-2" href="@/pdf/Amir Ashraf Amir.pdf" download="" target="_blank">{{ t('about.download') }}</a>
             <a class="d-inline-block px-3 py-2" href="#contact">{{ t('about.contact') }}</a></div>
         </div>
       </v-container>
