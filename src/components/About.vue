@@ -20,8 +20,7 @@
         <div class="info mt-6">
           <a
             class="d-inline-block px-3 py-2"
-            :href="resumePdf"
-            download="Amir-Ashraf-Amir-Resume.pdf"
+            :download="resumePdf"
             target="_blank"
           >
             {{ t("about.download") }}
