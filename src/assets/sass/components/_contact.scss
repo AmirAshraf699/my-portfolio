@@ -1,0 +1,98 @@
+.contact {
+    padding-top: var(--padding);
+    position: relative;
+    background-color: var(--dark-grey);
+    border-radius: 30px;
+
+    .content {
+        gap: 100px;
+    }
+
+    .data,
+    form {
+        flex: 1;
+    }
+
+    .data {
+        .phone,
+        .mail {
+            font-size: 13px;
+        }
+
+    }
+
+    form {
+
+        label {
+            font-size: 14px;
+        }
+
+        input,
+        textarea {
+            background-color: transparent;
+            border-radius: 6px;
+            background-color: var(--light-grey);
+            caret-color: var(--white);
+            color: var(--white);
+            border: none;
+            outline: none;
+            resize: none;
+            margin-top: 5px;
+
+            &::placeholder {
+                font-size: 14px;
+            }
+        }
+
+        textarea {
+            height: 200px;
+        }
+
+        .send {
+            color: var(--yellow);
+            button {
+                background-color: transparent;
+                color: var(--yellow);
+                cursor: pointer;
+                border: none;
+            }
+        }
+    }
+
+    .copy {
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        color: rgb(156, 156, 156);
+    }
+}
+
+
+@media (max-width: 991px) {
+    .contact {
+        .content {
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .data {
+            text-align: center;
+        }
+
+        .data,
+        form {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .contact {
+        form > div {
+            margin-left: 0;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.profile {
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+    position: relative;
+
+    .v-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .content,
+    .profile-links {
+        flex: 1;
+    }
+
+    .profile-links {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 50px;
+
+        li a {
+            display: inline-block;
+            color: var(--white);
+            font-size: 45px;
+            text-align: center;
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .profile {
+        .v-container {
+            flex-direction: column-reverse;
+            gap: 50px;
+        }
+
+        .content p {
+            text-align: center;
+        }
+    }
+}

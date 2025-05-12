@@ -1,0 +1,91 @@
+{
+    "header": {
+        "logo": "Amir",
+        "links": {
+            "one": "About me",
+            "two": "Skills",
+            "three": "Lest projects",
+            "four": "Contact Me"
+        },
+        "language": "عربي"
+    },
+    "landing": {
+        "titleOne": "Hi, I am",
+        "titleTwo": "Amir Ashraf",
+        "jop": "I am Frontend developer",
+        "linkedin": "Linkedin",
+        "github": "Github"
+    }, 
+    "about": {
+        "title": "About Me",
+        "text": {
+            "one": "I am a junior Front-End developer with solid foundation, I am living in Giza, Egypt, I finished my military service at December 2022",
+            "two": "Every sence i was teenager, I was interested in computer science especially programming, Finally, in 2022 i decided to start my new career path and become a front-end developer.",
+            "three": "My adventure started with a courses organised by myself,I learned on the internet, I learned the basics and some more advanced programming topics such as JavaScript. Then I started an additional course at Vue.js and React.js.",
+            "four": "There I learned more about solving complex problems and overcoming challenges by working with Vue.js/Nuxtjs, Pinia, Vuetify, React.js and Redux. I continue to refine my path with myself, where my current focus points are Next.js",
+            "five": "I Took my first step in my carreer as a Frontend develop (internship) in solution plus for 4 months.",
+            "six": "Privately, I am interested in technological innovations, I am constantly trying to develop and broaden my horizons, I am eager to learn new things and take on challenges, I never give up and always strive to achieve my current goals, I am an open, friendly person with a strong character."
+        },
+        "download": "My Resume",
+        "contact": "Contact me"
+    },
+    "skills": {
+        "title" : "Skills",
+        "text": {
+            "one": "I learned Html and Css as a Template languages.",
+            "two": "I learned JavaScript, TypeScript and Python as a programming languages,",
+            "three": "Reactjs and Vuejs/Nuxt.js as a javeScript frameworks",
+            "four": "I learned plugins like bootstrap, Sass, Pugjs, Gulpjs, Jestjs, Vee-validate, I18n, Axios",
+            "five": "vuex, Pinia, Vuetify, Redux",
+            "six": "And some skills like Postman, Git, Github, Commanline, OOP, Data structure, Algorithm, Canvas 2d, Problem solvong and Responsive web",
+            "seven": "Now iam working on Next.js"
+        },
+        "contact": "Contact Me",
+        "work": "Working on..."
+    },
+    "experience": {
+        "title": "Experiance",
+        "desc": "Frontend developer (Intern) at Solution plus (Dec 2024 - Apr 2025)"
+    },
+    "projects": {
+        "title": "Projects",
+        "project": {
+            "one": {
+                "title": "E-commerce",
+                "desc": "Fruit shop prototype adaptable for any products.",
+                "data": "Built with: HTML, Sass, Nuxt.js, Pinia, Vuetify."
+            },
+            "two": {
+                "title": "Dashboard",
+                "desc": "Management dashboard for portfolios/projects/courses.",
+                "data": "Built with: HTML, Sass, Vue.js "
+            },
+            "three": {
+                "title": "Landing page",
+                "desc": "Responsive template suitable for portfolios/agencies.",
+                "data": "Built with: HTML, CSS, JavaScript, Gulp.js. "
+            }
+        },
+        "repo": "Repo",
+        "design": "Design"
+    },
+    "profile": {
+        "title": "Profile",
+        "linkedin": "Linkedin",
+        "github": "Github",
+        "desc": "Ask me anythine or just say hi"
+    },
+    "contact": {
+        "title": "Contact Me",
+        "desc": "Ask me anythine or just say hi",
+        "name": "Full Name",
+        "namePlaceholder": "First name and last name",
+        "email": "Email",
+        "emailPlaceholder": "Email adress",
+        "subject": "Subject",
+        "subjectPlaceholder": "Your Subject",
+        "message": "Message",
+        "messagePlaceholder": "Your message",
+        "send": "Send"
+    }
+}
