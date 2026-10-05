@@ -15,7 +15,7 @@
         "jop": "I am Frontend developer",
         "linkedin": "Linkedin",
         "github": "Github"
-    }, 
+    },
     "about": {
         "title": "About Me",
         "text": {
@@ -30,7 +30,7 @@
         "contact": "Contact me"
     },
     "skills": {
-        "title" : "Skills",
+        "title": "Skills",
         "text": {
             "one": "I learned Html and Css as a Template languages.",
             "two": "I learned JavaScript, TypeScript and Python as a programming languages,",
@@ -45,7 +45,26 @@
     },
     "experience": {
         "title": "Experiance",
-        "desc": "Frontend developer (Intern) at Solution plus (Dec 2024 - Apr 2025)"
+        "items": [
+            {
+                "desc": "Frontend developer (Intern) at Solution plus (Dec 2024 - Apr 2025)"
+            },
+            {
+                "desc": "AI Trainer Generalist – TELUS International (Sep 2025 – Dec 2025)"
+            },
+            {
+                "desc": "AI Trainer & Video Annotator – Atlas Capture (Jan 2026 – Jul 2026)"
+            },
+            {
+                "desc": "AI Trainer specialist – RWS (Jul 2026 – Aug 2026)"
+            },
+            {
+                "desc": "AI Trainer & Speech Data Contributor – Fluffle AI (Sep 2026 – Present)"
+            },
+            {
+                "desc": "AI Trainer & LLM Evaluator - Productive Playhouse (Sep 2026 – Present)"
+            }
+        ]
     },
     "projects": {
         "title": "Projects",
